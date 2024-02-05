@@ -17,12 +17,26 @@
 				],
 				"stateMutability": "pure",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "welcome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {
-				"print()": {
+			"methods": {},
+			"stateVariables": {
+				"welcome": {
 					"details": "Prints Hello World string some alsoe try  add to it "
 				}
 			},
@@ -51,11 +65,11 @@
 	},
 	"sources": {
 		"contracts/HelloWorld.sol": {
-			"keccak256": "0x94981fa205a244d5ea507fe6e6f01730a8f82e4610ca204c31a801ebbae02c7f",
+			"keccak256": "0x8909e0670664854c2f8016a3e94501a1a1dae4a1857d6f44aa0aa078d8f401d9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c0180f7e17520df3ba1c0be249484fbdd212e937447737b3771ede76389243d4",
-				"dweb:/ipfs/QmVJK8ZcxtRaZPNProG3o7iyj3Bb7aPmqvTXP16196tsTz"
+				"bzz-raw://44eb24be7fa999761a8f85249dd78e528c6f7a847f7cf3bc9fc089262e062b1c",
+				"dweb:/ipfs/QmT3vaHg4pukN9UqnvbiBkHSFkFKFvHqqJ6bH4rkmYehLD"
 			]
 		}
 	},
