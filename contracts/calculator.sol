@@ -10,9 +10,10 @@ pragma solidity >=0.6.12 <0.9.0;
 // 4️⃣ Create a function to get result
 
 contract Calculator {
+
     uint256 public result;
 
-    unction add( uint256 num) external {
+    function add(uint256 num) external {
         result += num;
     }
 
