@@ -6,7 +6,7 @@ pragma solidity >=0.6.12 <0.9.0;
 
 // 1️⃣ Make a contract called Calculator [done]
 // 2️⃣ Create Result variable to store result [done]
-// 3️⃣ Create functions to add, subtract, and multiply to result 
+// 3️⃣ Create functions to add, subtract, and multiply to result [done]
 // 4️⃣ Create a function to get result
 
 contract Calculator {
