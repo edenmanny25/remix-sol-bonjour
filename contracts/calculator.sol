@@ -3,8 +3,21 @@
 pragma solidity >=0.6.12 <0.9.0;
 
 
+// q: how to install metamask?
+
+
+
+
+
+
+
+
+
+
+
 
 // 1️⃣ Make a contract called Calculator [done]
+
 // 2️⃣ Create Result variable to store result [done]
 // 3️⃣ Create functions to add, subtract, and multiply to result [done]
 // 4️⃣ Create a function to get result
@@ -12,6 +25,12 @@ pragma solidity >=0.6.12 <0.9.0;
 contract Calculator {
 
     uint256 public result;
+
+    // q: what is the purpose of this function?
+    // a: to add the number to the result
+     
+
+
 
     function add(uint256 num) external {
         result += num;
